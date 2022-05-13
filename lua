@@ -1,6 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/Kavo-GT/main/lua"))()
 
-local Window = Library.CreateLib("Light Step X - Strongman Simulator", "DarkTheme")
+local GreenTheme = {
+      SchemeColor = Color3.fromRGB(120, 200, 0),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(0, 0, 0)
+} 
+
+local Window = Library.CreateLib("Green X Hub - Strongman Simulator", GreenTheme)
 
 local Tab1 = Window:NewTab("\\-Home-//")
 
